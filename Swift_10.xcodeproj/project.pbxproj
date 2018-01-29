@@ -14,6 +14,7 @@
 		5F2F489A1FE25A4100FAFDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F48981FE25A4100FAFDAE /* LaunchScreen.storyboard */; };
 		5F2F48A51FE25A4100FAFDAE /* Swift_10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F48A41FE25A4100FAFDAE /* Swift_10Tests.swift */; };
 		5F2F48B01FE25A4100FAFDAE /* Swift_10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F48AF1FE25A4100FAFDAE /* Swift_10UITests.swift */; };
+		5F330BB51FECEB3C00ED5F6A /* CC_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F330BB41FECEB3C00ED5F6A /* CC_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5F2F48AB1FE25A4100FAFDAE /* Swift_10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2F48AF1FE25A4100FAFDAE /* Swift_10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_10UITests.swift; sourceTree = "<group>"; };
 		5F2F48B11FE25A4100FAFDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F330BB41FECEB3C00ED5F6A /* CC_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CC_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				5F2F488F1FE25A4000FAFDAE /* AppDelegate.swift */,
 				5F2F48911FE25A4100FAFDAE /* ViewController.swift */,
+				5F330BB41FECEB3C00ED5F6A /* CC_ViewController.swift */,
 				5F2F48931FE25A4100FAFDAE /* Main.storyboard */,
 				5F2F48961FE25A4100FAFDAE /* Assets.xcassets */,
 				5F2F48981FE25A4100FAFDAE /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F2F48921FE25A4100FAFDAE /* ViewController.swift in Sources */,
+				5F330BB51FECEB3C00ED5F6A /* CC_ViewController.swift in Sources */,
 				5F2F48901FE25A4000FAFDAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
 				INFOPLIST_FILE = Swift_10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-10";
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
 				INFOPLIST_FILE = Swift_10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-10";
